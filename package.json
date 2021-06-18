@@ -1,0 +1,18 @@
+{
+  "name": "platzi-video",
+  "version": "1.0.0",
+  "description": "Desarrollo de la página de Platzi Video como práctica del curso Frontend Developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "development",
+    "html",
+    "css",
+    "flexbox"
+  ],
+  "author": "Jair Orozco <dg.jairsanmartin@gmail.com>",
+  "license": "MIT"
+}
