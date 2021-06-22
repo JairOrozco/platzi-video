@@ -4,7 +4,8 @@
   "description": "Desarrollo de la página de Platzi Video como práctica del curso Frontend Developer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "keywords": [
     "frontend",
@@ -14,5 +15,8 @@
     "flexbox"
   ],
   "author": "Jair Orozco <dg.jairsanmartin@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
 }
