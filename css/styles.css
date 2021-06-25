@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  font-size: 72.5%; }
+
 body {
   background-color: #652bb1; }
 
@@ -31,6 +34,7 @@ body {
       cursor: pointer; }
     .header .header__menu span {
       margin-left: 10px;
+      font-size: 1.4rem;
       color: white; }
     .header .header__menu span:hover {
       cursor: pointer; }
@@ -39,6 +43,7 @@ body {
       position: absolute;
       padding: 0px;
       font-family: "Mulish", sans-serif;
+      font-size: 1.4rem;
       list-style: none;
       text-align: right; }
     .header .header__menu li {
@@ -50,3 +55,30 @@ body {
       color: white; }
   .header .header__menu:hover ul, .header ul:hover {
     display: block; }
+
+.main {
+  width: 100%;
+  margin-top: 100px; }
+
+.seeker {
+  width: 100%;
+  text-align: center; }
+  .seeker__title {
+    padding: 10px 0 15px 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 2rem;
+    color: white; }
+  .seeker__text {
+    width: 700px;
+    height: 37px;
+    padding-left: 10px;
+    border-radius: 15px;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    background-color: #7233c5; }
+  .seeker ::placeholder {
+    color: white;
+    font-size: 1.2rem; }

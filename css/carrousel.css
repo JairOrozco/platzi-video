@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.carousel {
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+  padding: 30px; }
+  .carousel__containerImages {
+    width: 100%;
+    margin: 70px 0;
+    white-space: nowrap; }
+  .carousel__galeryItem {
+    display: inline-block;
+    width: 210px;
+    height: 270px;
+    margin: 0 5px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 450ms ease-in-out;
+    transform-origin: left to right;
+    background-color: #2883ce; }
+  .carousel__galeryImage {
+    width: 210px;
+    height: 270px;
+    object-fit: cover; }
+  .carousel__galeryGradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 15px 10px;
+    font-size: 1rem;
+    opacity: 0;
+    transition: 450ms ease-in-out opacity;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  .carousel__galeryGradient:hover {
+    opacity: 1; }
+  .carousel__galeryIcons {
+    margin-bottom: 5px; }
+    .carousel__galeryIcons .galeryIconItem {
+      width: 24px; }
+  .carousel .galeryTitle {
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    color: white; }
+  .carousel .galeryDescription {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    color: white; }
+  .carousel .carousel__containerImages:hover .carousel__galeryItem {
+    opacity: .3; }
+  .carousel .carousel__containerImages:hover .carousel__galeryItem:hover {
+    transform: scale(1.25);
+    opacity: 1; }
+  .carousel .carousel__galeryItem:hover ~ .carousel__galeryItem {
+    transform: translateX(50px); }
