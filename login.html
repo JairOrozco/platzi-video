@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <header class="header">
+
+        <figure class="header__logo">
+            <img class="logo__image" src="assets/icons/logo-platzi-video-BW2.png" alt="Logo Platzi Video">
+        </figure>
+
+    </header>
+
+    <main class="mainLogIn">
+        <section class="formContainer">
+            
+            <h2 class="formContainer__title">Inicia Sesión</h2>
+            
+            <input class="formContainer__dataInputs" type="email" name="email" id="email" placeholder="Correo">
+            
+            <input class="formContainer__dataInputs" type="password" name="passsword" id="password" placeholder="Contraseña">
+            
+            <button class="formContainer__logIn">Iniciar Sesión</button>
+            
+            <div class="formContainer__optionsLoginContainer">
+
+                <label class="formContainer__rememberOption" for="Remember">
+                    <input type="checkbox" name="remember me" id="Remember">
+                    Recuérdame
+                </label>
+
+                <span class="formContainer__forgetOption"><a href="/">Olvidé mi contraseña</a></span>
+                
+            </div>
+
+            <div class="formContainer__logSocialMedia google">
+                <img class="googleLogo" src="assets/icons/google-icon.png" alt="Google Logo">
+                <span><a href="/">Inicia sesión con Google</a></span>
+            </div>
+
+            <div class="formContainer__logSocialMedia twitter">
+                <img class="twitterLogo" src="assets/icons/icons8-twitter-50.png" alt="Twitter Logo">
+                <span><a href="/">Inicia sesión con Twitter</a></span>
+            </div>
+
+            <p class="formContainer__signIn">No tienes ninguna cuenta <strong><a href="/">Regístrate</a></strong></p>
+
+        </section>
+    </main>
+
+
+    <footer class="footerLogIn">
+        <p><strong><a href="/">Terminos de uso</a></strong></p>
+        <p><strong><a href="/">Declaración de privacidad</a></strong></p>
+        <p><strong><a href="/">Centro de Ayuda</a></strong></p>
+    </footer>
+</body>
+</html>

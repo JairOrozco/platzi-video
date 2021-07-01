@@ -62,7 +62,8 @@ body {
 
 .seeker {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 60px; }
   .seeker__title {
     padding: 10px 0 15px 0;
     font-family: "Mulish", sans-serif;
@@ -82,3 +83,26 @@ body {
   .seeker ::placeholder {
     color: white;
     font-size: 1.2rem; }
+
+.categories__titles {
+  width: 100%;
+  padding: 0 30px;
+  font-size: 2rem;
+  font-family: "Mulish", sans-serif;
+  color: white; }
+
+.footerLogIn {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  padding: 0 0 0 30px; }
+  .footerLogIn p {
+    margin-right: 15px;
+    font-size: 1.1rem; }
+  .footerLogIn a {
+    color: white;
+    text-decoration: none; }
+  .footerLogIn a:hover {
+    text-decoration: underline; }
