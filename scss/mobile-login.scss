@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(26, 42, 75);
+}
+
+.formContainer{
+    border: none;
+}
+
+.header{
+    justify-content: center;
+    margin: 25px 0 10px 0px;
+    &__logo{
+        margin: 0;
+    }
+}
+
+.formContainer{
+    padding: 0;
+}
+
+.footerLogIn{
+    height: auto;
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 15px;
+    background-color: transparent;
+    & p{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 760px){
+    
+}
+

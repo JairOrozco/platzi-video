@@ -9,7 +9,7 @@ html {
 body {
   height: 100vh;
   font-family: "Mulish", sans-serif;
-  background: linear-gradient(to top, #25bb5f 15%, #336cad); }
+  background-color: #1a2a4b; }
 
 .header {
   width: 100%;
