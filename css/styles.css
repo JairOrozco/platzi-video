@@ -87,7 +87,7 @@ body {
 .categories__titles {
   width: 100%;
   padding: 0 30px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Mulish", sans-serif;
   color: white; }
 
@@ -100,6 +100,7 @@ body {
   padding: 0 0 0 30px; }
   .footerLogIn p {
     margin-right: 15px;
+    font-family: "Mulish", sans-serif;
     font-size: 1.1rem; }
   .footerLogIn a {
     color: white;

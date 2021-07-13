@@ -130,7 +130,7 @@ body{
 .categories__titles{
     width: 100%;
     padding: 0 30px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: $generalFont;
     color: white;
 }
@@ -145,6 +145,7 @@ body{
     padding: 0 0 0 30px;
     & p{
         margin-right: 15px;
+        font-family: $generalFont;
         font-size: 1.1rem;
     }
     & a{
