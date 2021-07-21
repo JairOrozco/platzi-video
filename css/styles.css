@@ -7,7 +7,7 @@ html {
   font-size: 72.5%; }
 
 body {
-  background-color: #652bb1; }
+  background-color: #0e1d38; }
 
 .header {
   width: 100%;
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #652bb1; }
+  background-color: #0e1d38; }
   .header .header__logo {
     margin-left: 15px;
     display: flex;
@@ -79,7 +79,7 @@ body {
     color: white;
     border: 2px solid white;
     outline: none;
-    background-color: #7233c5; }
+    background-color: #0a1c4d; }
   .seeker ::placeholder {
     color: white;
     font-size: 1.2rem; }
